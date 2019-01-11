@@ -76,7 +76,7 @@ class App extends Component {
             <img src={logo2} alt="Logo" className="App-logo" />
           )}
           <p className="subtitle text-center">
-            ¡Comparte esta página con tus amigos y familiares!
+            Comparte esta página con tus amigos y familiares!
           </p>
 
           <div className="social-container">
