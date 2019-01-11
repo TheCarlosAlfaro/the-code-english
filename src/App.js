@@ -23,7 +23,7 @@ class App extends Component {
     super(props);
     this.pinRef = React.createRef();
     this.state = {
-      verse: 'Introduzca el código para obtener acceso',
+      verse: 'Enter the code to obtain access',
       password: '',
       showVideo: false
     };
@@ -40,13 +40,15 @@ class App extends Component {
 
     if (this.state.password === '') {
       const node = this.pinRef.current;
-      this.setState({ verse: 'Tiene que introducir el código' });
+      this.setState({ verse: 'Must enter code' });
       node.elements[0].focus();
     } else if (this.state.password === 'JER333') {
       this.generateVerse();
       this.setState({ showVideo: true });
     } else {
-      this.setState({ verse: 'código incorrecto, vuelva a intentarlo' });
+      this.setState({
+        verse: 'Incorrect code, try again'
+      });
       this.setState({ password: '' });
       const node = this.pinRef.current;
       node.elements.forEach(function(pinItem) {
@@ -57,11 +59,11 @@ class App extends Component {
   };
 
   render() {
-    let url = 'http://aguilascfc.org';
+    let url = 'https://www.eaglescfc.org/thecode';
     const videoUrl = 'https://aguilascfc.wistia.com/medias/xz6o9y2tjc';
     // let appId = '1792125874189569';
     const bosquejoUrl =
-      'https://www.aguilascfc.org/wp-content/uploads/2019/01/LAS-METAS-QUE-DIOS-BENDICE.pdf';
+      'https://www.eaglescfc.org/wp-content/uploads/2019/01/1-My-Defenses.pdf';
     let appHeaderClassName = 'App-header';
     if (this.state.showVideo) {
       appHeaderClassName += 'Success';
@@ -76,14 +78,14 @@ class App extends Component {
             <img src={logo2} alt="Logo" className="App-logo" />
           )}
           <p className="subtitle text-center">
-            Comparte esta página con tus amigos y familiares!
+            Share this page with your friends and family!
           </p>
 
           <div className="social-container">
             <FacebookShareButton
               className="fb-buttton"
               url={url}
-              quote="¿Quieres saber el código?"
+              quote="Do you want to know the code?"
               hashtag="#THECODEJER333"
             >
               <FacebookIcon
@@ -147,58 +149,57 @@ class App extends Component {
                   this.setState({ password: value });
                 }}
               />
-              <button type="submit">OBTENER ACCESO</button>
+              <button type="submit">OBTAIN ACCESS</button>
             </form>
           )}
         </header>
         {this.state.showVideo ? (
           <div className="container">
-            <p className="sub-heading">Versículo de esta semana.</p>
+            <p className="sub-heading">The verse of the week.</p>
             <div className="verse__container verse">
               <p>
-                <small>14</small> En cierta ocasión, Jesús estaba orando en un
-                lugar y, cuando terminó, uno de sus discípulos le dijo: «Señor,
-                enséñanos a orar, así como Juan enseñó a sus discípulos.».
+                <small>14</small> One day Jesus was praying in a certain place.
+                When he finished, one of his disciples said to him, “Lord, teach
+                us to pray, just as John taught his disciples.”
                 <br />
-                <strong className="verse__ref">(Lucas 11:1 RVC)</strong>
+                <strong className="verse__ref">(Luke 11:1 NIV)</strong>
               </p>
             </div>
-            <p className="sub-heading">Oración de esta semana.</p>
+            <p className="sub-heading">Prayer of the week.</p>
             <div className="verse">
               <p>
-                “Señor he entendido la importancia de orar, pues, la oración es
-                la llave para conectar contigo, es la “defensa” que nos has
-                dejado para todo lo que enfrentamos en esta vida.
+                “Lord I have understood the importance of praying, for prayer is
+                the key to connect with you, it’s the “defense” you have given
+                us for everything that we face in life.
                 <br />
-                <br />
-                Te pido que pongas en mi hambre por conocerte más, hambre por
-                orar y buscarte cada mañana. Pon en mi esa necesidad de pasar
-                más tiempo contigo ya que mi alma tiene sed de ti” Amen.
+                <br />I ask you to put hunger in me to know you more, hunger to
+                pray and seek you every morning. Put that need in me to spend
+                more time with you because my soul is thirsty for you. Amen.
               </p>
             </div>
-            <p className="sub-heading">Tips para orar.</p>
+            <p className="sub-heading">Tips to pray.</p>
             <div className="verse">
               <ul>
                 <li>
-                  Encuentra un espacio de quietud, cuando los hijos ya se fueron
-                  a la escuela, o a dormir, o antes de irte a trabajar; a la
-                  hora que se te acomode, pero sin bullicio, pues tu oración
-                  debe ser en lo secreto cerrada la puerta.
-                  <strong>(Mateo 6:6)</strong>
+                  Find a place of stillness, when your kids have gone to school,
+                  to sleep, or even before you go to work; whatever time fits
+                  best for you, but without noise, for your prayer should be in
+                  secret with the door closed.
+                  <strong>(Matthew 6:6)</strong>
                 </li>
-                <li>Apaga tu teléfono para que nada te distraiga.</li>
+                <li>Turn off your cellphone so nothing distracts you. </li>
               </ul>
             </div>
-            <p className="sub-heading">Bosquejo digital.</p>
+            <p className="sub-heading">Digital Outline.</p>
             <div className="verse">
               <p className="text-center">
                 <a href={bosquejoUrl} target="_blank" rel="noopener noreferrer">
-                  ¡Puedes descargar el bosquejo aquí!
+                  You can download the outline here!
                 </a>
                 <br />
               </p>
             </div>
-            <p className="sub-heading">Enseñanza en video.</p>
+            {/* <p className="sub-heading">Enseñanza en video.</p>
             <div className="video-container">
               <div className="player-wrapper">
                 <ReactPlayer
@@ -208,7 +209,7 @@ class App extends Component {
                   height="100%"
                 />
               </div>
-            </div>
+            </div> */}
             <div className="github-link">
               {/* <small className="github-link">
                 Made with <i className="fa fa-heart" /> by&nbsp;
