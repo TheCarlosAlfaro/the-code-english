@@ -1,0 +1,152 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  margin-top: .5rem;
+  width: 500px;
+  max-width: 80%;
+}
+
+.App-header {
+  text-align: center;
+  background-image: url("https://www.aguilascfc.org/wp-content/uploads/2019/01/BACKGROUND.jpg");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-headerSuccess {
+  background-image: url("https://www.aguilascfc.org/wp-content/uploads/2019/01/BACKGROUND.jpg");
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.title {
+  font-size: 5rem;
+  color: #111;
+}
+
+.App-link {
+  color: #02F000;
+}
+
+.fb-buttton {
+  margin-bottom: 1.2rem;
+}
+
+button {
+  background-color: #0155E2;
+  font-size: 1.5rem;
+  border: none;
+  box-shadow: none;
+  padding: 5px 55px 5px 55px;
+  color: white;
+  border-radius: 5px;
+  margin: 1.5rem;
+}
+
+button:hover {
+  background-color: #0763fe;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.subtitle {
+  /* color: #4c4c4c; */
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.sub-heading {
+  color: #111;
+  font-size: 2rem;
+  margin: 0;
+  text-decoration: underline;
+  text-decoration-color: #0763fe;
+  text-align: center;
+}
+
+.SocialMediaShareCount {
+  color: #fff;
+  font-size: .8rem;
+  text-align: center;
+}
+
+.github-link {
+  text-align: center;
+}
+
+.github-link a {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.video-player {
+  max-width: 100%;
+  padding: 50px;
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% 
+}
+ 
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  padding: .5rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.video-container {
+  margin: 1rem;;
+}
+
+.verse {
+  font-size: 1.5rem;
+  background-color: #F0EDEE;
+  display: flex;
+  max-width: 700px;
+  padding: 0 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  color: #111;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.SocialMediaShareButton {
+  padding: .5rem;
+}
+
+.verse__ref {
+  float: right;
+}

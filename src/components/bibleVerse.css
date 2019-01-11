@@ -1,0 +1,19 @@
+.instructions {
+  background-color: white;
+  display: inline-block;
+  max-width: 700px;
+  padding: 1rem;
+  margin: 1.5rem;
+  border-radius: 10px;
+  color: #111;
+}
+
+.instructionsError {
+  background-color: red;
+  display: inline-block;
+  max-width: 700px;
+  padding: 1rem;
+  margin: 1.5rem;
+  border-radius: 10px;
+  color: #fff;
+}
