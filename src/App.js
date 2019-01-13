@@ -158,23 +158,38 @@ class App extends Component {
             <p className="sub-heading">The verse of the week.</p>
             <div className="verse__container verse">
               <p>
-                <small>14</small> One day Jesus was praying in a certain place.
-                When he finished, one of his disciples said to him, “Lord, teach
-                us to pray, just as John taught his disciples.”
+                <small>3</small> Call to Me, and I will answer you, and show you
+                great and mighty things, which you do not know.
                 <br />
-                <strong className="verse__ref">(Luke 11:1 NIV)</strong>
+                <strong className="verse__ref">(Jeremiah 33:3 NKJV)</strong>
               </p>
             </div>
             <p className="sub-heading">Prayer of the week.</p>
             <div className="verse">
               <p>
-                “Lord I have understood the importance of praying, for prayer is
-                the key to connect with you, it’s the “defense” you have given
-                us for everything that we face in life.
+                Father, help me develop my prayer life this year like never
+                before. I want to place you as a priority in every area of my
+                life.
                 <br />
-                <br />I ask you to put hunger in me to know you more, hunger to
-                pray and seek you every morning. Put that need in me to spend
-                more time with you because my soul is thirsty for you. Amen.
+                <br />
+                Help me so that this prayer series is more than just theory. I
+                want to go to another level in my prayer life. I want to feed my
+                soul and spirit with the same abundance I feed my body.
+                <br />
+                <br />
+                Holy Spirit, I ask for your help, teach me how to pray. Help me
+                develop the discipline to pray. I don’t want my prayers to be
+                boring, I don’t want to pray as an obligation, guilt, or
+                religiosity. Teach me to enjoy the moments of intimacy with you.
+                <br />
+                <br />
+                Lord, help me eliminate the distractions in the following weeks,
+                to overcome temptations, to develop the habit of having a daily
+                appointment with you.
+                <br />
+                <br />
+                Father, I know I can’t do it alone, give me the help of your
+                Holy Spirit. I ask for it in the name of Jesus.
               </p>
             </div>
             <p className="sub-heading">Tips to pray.</p>
