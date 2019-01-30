@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import './App.css';
-import { successMessage } from '../src/theCodeBibleVerses.json';
-import BibleVerse from './components/BibleVerse';
-import PinInput from 'react-pin-input';
-import logo from './the-code-logo.png';
-import logo2 from './the-code-no-verse.png';
+import React, { Component } from "react";
+import "./App.css";
+import { successMessage } from "../src/theCodeBibleVerses.json";
+import BibleVerse from "./components/BibleVerse";
+import PinInput from "react-pin-input";
+import logo from "./the-code-logo.png";
+import logo2 from "./the-code-no-verse.png";
 import {
   FacebookShareButton,
   FacebookShareCount,
@@ -15,16 +15,16 @@ import {
   WhatsappIcon,
   EmailShareButton,
   EmailIcon
-} from 'react-share';
-import ReactPlayer from 'react-player';
+} from "react-share";
+import ReactPlayer from "react-player";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.pinRef = React.createRef();
     this.state = {
-      verse: 'Enter the code to obtain access',
-      password: '',
+      verse: "Enter the code to obtain access",
+      password: "",
       showVideo: false
     };
   }
@@ -38,35 +38,35 @@ class App extends Component {
   handleSubmit = e => {
     e.preventDefault();
 
-    if (this.state.password === '') {
+    if (this.state.password === "") {
       const node = this.pinRef.current;
-      this.setState({ verse: 'Must enter code' });
+      this.setState({ verse: "Must enter code" });
       node.elements[0].focus();
-    } else if (this.state.password === 'JER333') {
+    } else if (this.state.password === "JER333") {
       this.generateVerse();
       this.setState({ showVideo: true });
     } else {
       this.setState({
-        verse: 'Incorrect code, try again'
+        verse: "Incorrect code, try again"
       });
-      this.setState({ password: '' });
+      this.setState({ password: "" });
       const node = this.pinRef.current;
       node.elements.forEach(function(pinItem) {
-        pinItem.setState({ value: '' });
+        pinItem.setState({ value: "" });
       });
       node.elements[0].focus();
     }
   };
 
   render() {
-    let url = 'https://www.eaglescfc.org/thecode';
-    const videoUrl = 'https://aguilascfc.wistia.com/medias/xz6o9y2tjc';
+    let url = "https://www.eaglescfc.org/thecode";
+    const videoUrl = "https://aguilascfc.wistia.com/medias/xz6o9y2tjc";
     // let appId = '1792125874189569';
     const bosquejoUrl =
-      'https://www.eaglescfc.org/wp-content/uploads/2019/01/1-My-Defenses.pdf';
-    let appHeaderClassName = 'App-header';
+      "https://www.eaglescfc.org/wp-content/uploads/2019/01/THE-CODE-BOSQUEJOS-ingles-buenos.pdf";
+    let appHeaderClassName = "App-header";
     if (this.state.showVideo) {
-      appHeaderClassName += 'Success';
+      appHeaderClassName += "Success";
     }
 
     return (
@@ -92,7 +92,7 @@ class App extends Component {
                 size={50}
                 round={true}
                 logoFillColor="#3A5A98"
-                iconBgStyle={{ fill: '#fff' }}
+                iconBgStyle={{ fill: "#fff" }}
               />
               <FacebookShareCount url={url} />
             </FacebookShareButton>
@@ -100,13 +100,13 @@ class App extends Component {
               url={url}
               title="The Code"
               via="aguilascfc"
-              hashtags={['THECODEJER333', 'aguilascfc']}
+              hashtags={["THECODEJER333", "aguilascfc"]}
             >
               <TwitterIcon
                 size={50}
                 round={true}
                 logoFillColor="#01ACED"
-                iconBgStyle={{ fill: '#fff' }}
+                iconBgStyle={{ fill: "#fff" }}
               />
             </TwitterShareButton>
             <WhatsappShareButton url={url} title="The Code" separator=" ">
@@ -114,7 +114,7 @@ class App extends Component {
                 size={50}
                 round={true}
                 logoFillColor="#2CB743"
-                iconBgStyle={{ fill: '#fff' }}
+                iconBgStyle={{ fill: "#fff" }}
               />
             </WhatsappShareButton>
             <EmailShareButton url={url} subject="The Code">
@@ -122,7 +122,7 @@ class App extends Component {
                 size={50}
                 round={true}
                 logoFillColor="#7F7F7F"
-                iconBgStyle={{ fill: '#fff' }}
+                iconBgStyle={{ fill: "#fff" }}
               />
             </EmailShareButton>
           </div>
@@ -138,13 +138,13 @@ class App extends Component {
                 length={6}
                 onChange={(value, index) => {}}
                 type="custom"
-                style={{ padding: '10px' }}
+                style={{ padding: "10px" }}
                 inputStyle={{
-                  borderColor: '#fff',
-                  fontSize: '2rem',
-                  color: '#fff'
+                  borderColor: "#fff",
+                  fontSize: "2rem",
+                  color: "#fff"
                 }}
-                inputFocusStyle={{ borderColor: '#FF0000' }}
+                inputFocusStyle={{ borderColor: "#FF0000" }}
                 onComplete={(value, index) => {
                   this.setState({ password: value });
                 }}
