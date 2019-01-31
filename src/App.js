@@ -158,51 +158,57 @@ class App extends Component {
             <p className="sub-heading">The verse of the week.</p>
             <div className="verse__container verse">
               <p>
-                <small>3</small> Call to Me, and I will answer you, and show you
-                great and mighty things, which you do not know.
+                <small>3</small> Never stop praying
                 <br />
-                <strong className="verse__ref">(Jeremiah 33:3 NKJV)</strong>
+                <strong className="verse__ref">
+                  (1 Thessalonians 5:17 NLT)
+                </strong>
               </p>
             </div>
             <p className="sub-heading">Prayer of the week.</p>
             <div className="verse">
               <p>
-                Father, help me develop my prayer life this year like never
-                before. I want to place you as a priority in every area of my
-                life.
+                Father, help me be able to pray without ceasing. May I always
+                remember, in each moment and in each place, that You are at my
+                side to help me succeed, to listen to me and to guide me. Help
+                me, Holy Spirit, to be aware of Your Presence in my life.
                 <br />
                 <br />
-                Help me so that this prayer series is more than just theory. I
-                want to go to another level in my prayer life. I want to feed my
-                soul and spirit with the same abundance I feed my body.
+                I want to be grateful with you. Do your will, not mine. I want
+                to listen to you, have a conversation with you, and not just
+                talk about myself. I want to know you more, to be more like You
+                and to adore you in spirit and in truth.
                 <br />
                 <br />
-                Holy Spirit, I ask for your help, teach me how to pray. Help me
-                develop the discipline to pray. I don’t want my prayers to be
-                boring, I don’t want to pray as an obligation, guilt, or
-                religiosity. Teach me to enjoy the moments of intimacy with you.
-                <br />
-                <br />
-                Lord, help me eliminate the distractions in the following weeks,
-                to overcome temptations, to develop the habit of having a daily
-                appointment with you.
-                <br />
-                <br />
-                Father, I know I can’t do it alone, give me the help of your
-                Holy Spirit. I ask for it in the name of Jesus.
+                Help me to keep my heart healthy and without pride by being
+                humble. Also, guide me to forgive and ask for forgiveness. I
+                want to be your best friend and talk to you every day. I ask you
+                in the name of Jesus, Amen.
               </p>
             </div>
-            <p className="sub-heading">Tips to pray.</p>
+            <p className="sub-heading">
+              Tips that will help you pray without ceasing.
+            </p>
             <div className="verse">
               <ul>
                 <li>
-                  Find a place of stillness, when your kids have gone to school,
-                  to sleep, or even before you go to work; whatever time fits
-                  best for you, but without noise, for your prayer should be in
-                  secret with the door closed.
-                  <strong>(Matthew 6:6)</strong>
+                  Every day when you wake up, thank God for one more day of
+                  life, for your family, health, work, and for all of his
+                  benefits.
                 </li>
-                <li>Turn off your cellphone so nothing distracts you. </li>
+                <li>Surrender your daily plans to God.</li>
+                <li>
+                  As you’re driving, play worship music in the car and take
+                  advantage of that quiet time to listen and worship him.
+                </li>
+                <li>Follow the Bible reading plan (3 chapters daily).</li>
+                <li>
+                  Before going to bed, forgive anyone who offended you
+                  throughout the day. Pray for that person by name and ask God
+                  for forgiveness if you offended anyone or did something that
+                  wouldn’t please him. End by thanking God for his protection
+                  for you and your family.
+                </li>
               </ul>
             </div>
             <p className="sub-heading">Digital Outline.</p>
