@@ -158,58 +158,74 @@ class App extends Component {
             <p className="sub-heading">The verse of the week.</p>
             <div className="verse__container verse">
               <p>
-                <small>3</small> Never stop praying
+                <small>16</small> “The earnest prayer of a righteous person has
+                great power and produces wonderful results.”
                 <br />
-                <strong className="verse__ref">
-                  (1 Thessalonians 5:17 NLT)
-                </strong>
+                <strong className="verse__ref">(James 5:16b NLT)</strong>
               </p>
             </div>
             <p className="sub-heading">Prayer of the week.</p>
             <div className="verse">
               <p>
-                Father, help me be able to pray without ceasing. May I always
-                remember, in each moment and in each place, that You are at my
-                side to help me succeed, to listen to me and to guide me. Help
-                me, Holy Spirit, to be aware of Your Presence in my life.
+                Heavenly Father, I want my prayer to not be impeded and reach
+                your throne. I ask you to help me with my faith, that I can see
+                with your eyes and see things that are not done yet as if they
+                already were.
                 <br />
                 <br />
-                I want to be grateful with you. Do your will, not mine. I want
-                to listen to you, have a conversation with you, and not just
-                talk about myself. I want to know you more, to be more like You
-                and to adore you in spirit and in truth.
+                I ask forgiveness for not doing what pleases you, because
+                although I know what is good, many times I don’t do it. Help me
+                align myself to your perfect will.
                 <br />
                 <br />
-                Help me to keep my heart healthy and without pride by being
-                humble. Also, guide me to forgive and ask for forgiveness. I
-                want to be your best friend and talk to you every day. I ask you
-                in the name of Jesus, Amen.
+                Lord, examine my heart and show me if there is a lack of
+                forgiveness toward someone. Help me to guard my heart above
+                everything else.
+                <br />
+                <br />I declare I have the mind of Christ, that my mind is a
+                highway of your thoughts and not the Devil’s garbage bin. I will
+                think of good, of what is pleasing, what has virtue and what is
+                worthy of praise.
+                <br />
+                <br />I ask you to be the center of my home, my marriage, and my
+                life. In the name of Jesus, amen.
               </p>
             </div>
             <p className="sub-heading">
-              Tips that will help you pray without ceasing.
+              Tips For Your Prayer To Not Have Obstacles
             </p>
             <div className="verse">
-              <ul>
+              <ol>
                 <li>
-                  Every day when you wake up, thank God for one more day of
-                  life, for your family, health, work, and for all of his
-                  benefits.
+                  Speak with faith. Give thank to God in advance, daily, for the
+                  response to your prayers. Example: If you are asking to be
+                  healed, say, “Thank you God because I am already healed.”
                 </li>
-                <li>Surrender your daily plans to God.</li>
+                <br />
                 <li>
-                  As you’re driving, play worship music in the car and take
-                  advantage of that quiet time to listen and worship him.
+                  Look for a promise of God in the Bible that supports your
+                  petition. Learn it and repeat it in your prayer time. Example,
+                  if you’re praying for your family to be saved, say, “Because
+                  your Word says, ‘Believe in the Lord and you and your house
+                  will be saved’ (Acts 16:31).”
                 </li>
-                <li>Follow the Bible reading plan (3 chapters daily).</li>
+                <br />
                 <li>
-                  Before going to bed, forgive anyone who offended you
-                  throughout the day. Pray for that person by name and ask God
-                  for forgiveness if you offended anyone or did something that
-                  wouldn’t please him. End by thanking God for his protection
-                  for you and your family.
+                  If you have a damaged relationship, fix the situation as soon
+                  as possible, ask for forgiveness and forgive.
                 </li>
-              </ul>
+                <br />
+                <li>
+                  In your daily prayer, ask God to examine your heart. Give him
+                  your areas of weakness and ask him to align you to his will.
+                </li>
+                <br />
+                <li>
+                  If you are married and have problems in your marriage, invest
+                  in your marriage. Go to the “Love and Prayer” dinner. Ask your
+                  mentor, elder, or pastor for help or more information.
+                </li>
+              </ol>
             </div>
             <p className="sub-heading">Digital Outline.</p>
             <div className="verse">
