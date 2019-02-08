@@ -155,75 +155,77 @@ class App extends Component {
         </header>
         {this.state.showVideo ? (
           <div className="container">
-            <p className="sub-heading">The verse of the week.</p>
+            <p className="sub-heading">The verse of the week</p>
             <div className="verse__container verse">
               <p>
-                <small>16</small> “The earnest prayer of a righteous person has
-                great power and produces wonderful results.”
+                <small>5</small> “When you pray, don’t be like the hypocrites
+                who love to pray publicly on street corners and in the
+                synagogues where everyone can see them. I tell you the truth,
+                that is all the reward they will ever get.
                 <br />
-                <strong className="verse__ref">(James 5:16b NLT)</strong>
+                <strong className="verse__ref">(Matthew 6:5 NLT)</strong>
               </p>
             </div>
-            <p className="sub-heading">Prayer of the week.</p>
+            <p className="sub-heading">Prayer of the week</p>
             <div className="verse">
               <p>
-                Heavenly Father, I want my prayer to not be impeded and reach
-                your throne. I ask you to help me with my faith, that I can see
-                with your eyes and see things that are not done yet as if they
-                already were.
+                Heavenly Father, I give you thanks for the great privilege you
+                have given me of having access to your presence through prayer.
                 <br />
                 <br />
-                I ask forgiveness for not doing what pleases you, because
-                although I know what is good, many times I don’t do it. Help me
-                align myself to your perfect will.
+                Thank you for being my friend. I do not want to fail you, and
+                because of that I ask that your Holy Spirit places in me not
+                only wanting to speak to you every day, but also actually doing
+                it. I want to speak to you in every moment and place as my best
+                friend. I want to give you the best of me, just as you have
+                given everything for me.
                 <br />
                 <br />
-                Lord, examine my heart and show me if there is a lack of
-                forgiveness toward someone. Help me to guard my heart above
-                everything else.
+                Forgive me for not giving sufficient value to your love, time,
+                and sacrifice.
                 <br />
-                <br />I declare I have the mind of Christ, that my mind is a
-                highway of your thoughts and not the Devil’s garbage bin. I will
-                think of good, of what is pleasing, what has virtue and what is
-                worthy of praise.
                 <br />
-                <br />I ask you to be the center of my home, my marriage, and my
-                life. In the name of Jesus, amen.
+                Thank you because, no matter what, the moment I speak to you,
+                you lean in to hear me. When I am anxious, sad, or going through
+                a difficult situation, you fill me with peace and love, you
+                renew my strengths, give me joy, hope, and faith. Thank you
+                because I know you will always be available for me, 24/7. There
+                is no other friend like you! I love you!
               </p>
             </div>
             <p className="sub-heading">
-              Tips For Your Prayer To Not Have Obstacles
+              Tips for creating a lifestyle of prayer
             </p>
             <div className="verse">
               <ol>
                 <li>
-                  Speak with faith. Give thank to God in advance, daily, for the
-                  response to your prayers. Example: If you are asking to be
-                  healed, say, “Thank you God because I am already healed.”
+                  Speak with God as if he were your best friend. Remember that
+                  he will always listen to you. Do it as soon as you wake up,
+                  while you’re getting ready, driving, working, etc.
                 </li>
                 <br />
                 <li>
-                  Look for a promise of God in the Bible that supports your
-                  petition. Learn it and repeat it in your prayer time. Example,
-                  if you’re praying for your family to be saved, say, “Because
-                  your Word says, ‘Believe in the Lord and you and your house
-                  will be saved’ (Acts 16:31).”
+                  Every morning, remember that you have an appointment with the
+                  King of Kings. You cannot miss your appointment! What a great
+                  privilege we have!
                 </li>
                 <br />
                 <li>
-                  If you have a damaged relationship, fix the situation as soon
-                  as possible, ask for forgiveness and forgive.
+                  If you have never prayed, begin with fifteen minutes, but make
+                  it very good quality time. Let nothing distract you. Do it
+                  when no one else has woken up, or when everyone has left
+                  already.
                 </li>
                 <br />
                 <li>
-                  In your daily prayer, ask God to examine your heart. Give him
-                  your areas of weakness and ask him to align you to his will.
+                  Add 5 more minutes every day to your prayer, until you reach
+                  at least an hour.
                 </li>
                 <br />
                 <li>
-                  If you are married and have problems in your marriage, invest
-                  in your marriage. Go to the “Love and Prayer” dinner. Ask your
-                  mentor, elder, or pastor for help or more information.
+                  If you are going through a difficult situation, pray to God.
+                  If you are struggling with temptation, pray to God. If you
+                  need peace, pray to God. In all times, pray to God!
                 </li>
               </ol>
             </div>
