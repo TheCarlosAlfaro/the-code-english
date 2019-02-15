@@ -155,77 +155,64 @@ class App extends Component {
         </header>
         {this.state.showVideo ? (
           <div className="container">
-            <p className="sub-heading">The verse of the week</p>
+            <p className="sub-heading">Verse of the week</p>
             <div className="verse__container verse">
               <p>
-                <small>5</small> “When you pray, don’t be like the hypocrites
-                who love to pray publicly on street corners and in the
-                synagogues where everyone can see them. I tell you the truth,
-                that is all the reward they will ever get.
+                <small>12-14</small> But most of all, my brothers and sisters,
+                never take an oath, by heaven or earth or anything else. Just
+                say a simple yes or no, so that you will not sin and be
+                condemned.
                 <br />
-                <strong className="verse__ref">(Matthew 6:5 NLT)</strong>
+                <strong className="verse__ref">(James 5:12-14 NLT)</strong>
               </p>
             </div>
             <p className="sub-heading">Prayer of the week</p>
             <div className="verse">
               <p>
-                Heavenly Father, I give you thanks for the great privilege you
-                have given me of having access to your presence through prayer.
+                Heavenly Father, I give you thanks for giving us a way of
+                connecting with you through prayer, for always being available
+                to hear us and letting us bring our burdens to you.
                 <br />
                 <br />
-                Thank you for being my friend. I do not want to fail you, and
-                because of that I ask that your Holy Spirit places in me not
-                only wanting to speak to you every day, but also actually doing
-                it. I want to speak to you in every moment and place as my best
-                friend. I want to give you the best of me, just as you have
-                given everything for me.
+                Thank you because I know that you always hear me and respond to
+                the majority of my petitions in your perfect timing. You have
+                changed my mourning to dancing when I have called on you during
+                my crises, and most importantly, I find rest, peace, guidance,
+                strength and everything I need in you.
                 <br />
                 <br />
-                Forgive me for not giving sufficient value to your love, time,
-                and sacrifice.
+                Thank you for your promises you’ve given us that help us pray
+                and fill us with hope and faith for every situation in our
+                lives.
                 <br />
                 <br />
-                Thank you because, no matter what, the moment I speak to you,
-                you lean in to hear me. When I am anxious, sad, or going through
-                a difficult situation, you fill me with peace and love, you
-                renew my strengths, give me joy, hope, and faith. Thank you
-                because I know you will always be available for me, 24/7. There
-                is no other friend like you! I love you!
+                Help me, Holy Spirit, to always depend on God and place in me
+                every day the desire to pray.
               </p>
             </div>
-            <p className="sub-heading">
-              Tips for creating a lifestyle of prayer
-            </p>
+            <p className="sub-heading">Tips to maintain your defenses</p>
             <div className="verse">
               <ol>
                 <li>
-                  Speak with God as if he were your best friend. Remember that
-                  he will always listen to you. Do it as soon as you wake up,
-                  while you’re getting ready, driving, working, etc.
+                  Do not forget to cover your family in prayer everyday and that
+                  your children see a role model in you as a man or woman that
+                  depends on God.
                 </li>
                 <br />
                 <li>
-                  Every morning, remember that you have an appointment with the
-                  King of Kings. You cannot miss your appointment! What a great
-                  privilege we have!
+                  If you need wisdom to make a decision, come to God in prayer.
+                </li>
+                <br />
+                <li>In the moments of crisis, come to God in prayer.</li>
+                <br />
+                <li>
+                  If you are going through a time of stress in your life and
+                  need peace, come to God in prayer.
                 </li>
                 <br />
                 <li>
-                  If you have never prayed, begin with fifteen minutes, but make
-                  it very good quality time. Let nothing distract you. Do it
-                  when no one else has woken up, or when everyone has left
-                  already.
-                </li>
-                <br />
-                <li>
-                  Add 5 more minutes every day to your prayer, until you reach
-                  at least an hour.
-                </li>
-                <br />
-                <li>
-                  If you are going through a difficult situation, pray to God.
-                  If you are struggling with temptation, pray to God. If you
-                  need peace, pray to God. In all times, pray to God!
+                  Other than your personal prayer time with God, join an
+                  intercession group in church.
                 </li>
               </ol>
             </div>
